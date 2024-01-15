@@ -1,0 +1,15 @@
+import java.util.*;
+public class Solution {
+public static void main(String[] args) {
+Scanner input=new Scanner(System.in);
+int B, H, area=0;
+B=input.nextInt();
+H=input.nextInt();
+if(B<=0 || H<=0){
+    System.out.println("java.lang.Exception: Breadth and height must be positive");
+}else if(B>0 && B<=100 && H>0 && H<=100){
+    area=B*H;
+    System.out.println(area);
+}
+   }
+}
